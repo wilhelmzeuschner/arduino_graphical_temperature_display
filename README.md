@@ -7,6 +7,8 @@ In addition to that, a graph of the temperature of the last 60 seconds, 60 minut
 Two buttons can be used to select which readings are displayed or whether the backlight is: 
 _Always ON_, _Always OFF_ or _Adaptive_. A LDR is used for the _Adaptive_-mode.
 
+Certain information, like the selected backlight-mode will be saved in the internal EEPROM.
+
 Required libaries:
 https://github.com/adafruit/Adafruit-GFX-Library,
 https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library and
