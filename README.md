@@ -13,3 +13,6 @@ Required libaries:
 https://github.com/adafruit/Adafruit-GFX-Library,
 https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library and
 https://github.com/adafruit/DHT-sensor-library
+
+Here is an image of the running prototype:
+![prototype](https://github.com/wilhelmzeuschner/arduino_graphical_temperature_display/blob/master/images/IMG_20180402_212118.jpg)
