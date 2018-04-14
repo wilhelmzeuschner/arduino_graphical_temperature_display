@@ -262,7 +262,7 @@ void display_text() {
 	d.drawCircle(59, 2, 2, BLACK);
 	d.setFont(NULL);
 	d.setCursor(0, 14);
-	d.print("Lf.: ");
+	d.print("H.: ");
 	d.setCursor(25, 14);
 	if (humid < 100) {
 		d.print(String(humid, 1));
