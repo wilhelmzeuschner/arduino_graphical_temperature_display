@@ -68,7 +68,7 @@ void setup() {
 	digitalWrite(backlight_pin, 1);
 
 	Serial.begin(115200);
-	Serial.println("Gebaut von Wilhelm Zeuschner. Projekt begonnen am 31.03.2018.");
+	Serial.println("Graphical Temperature and Humidity Display");
 	dht.begin();
 	d.begin();
 	d.setFont(NULL);
@@ -78,7 +78,7 @@ void setup() {
 	d.clearDisplay();
 	d.setTextColor(BLACK);
 	d.setCursor(0, 10);
-	d.println("Temperatur- und Luftfeuchtigkeitsmessgeraet");
+	d.println("Graphical Temperature and Humidity Display");
 	d.display();
 	//delay(1000);
 	
